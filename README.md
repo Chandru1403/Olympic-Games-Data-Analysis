@@ -6,9 +6,13 @@ This project involves analyzing the Olympic Games dataset to uncover meaningful 
 **Key SQL Techniques**
 
 1.Common Table Expressions (CTEs)
+
 2.Window Functions 
+
 3.Aggregate Functions (COUNT, SUM, AVG)
+
 4.Joins 
+
 5.Subqueries
 
 **Questions Addressed**
