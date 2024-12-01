@@ -1,25 +1,35 @@
 # Olympic-Games-Data-Analysis
 
-This project analyzes Olympic Games data through the lens of advanced SQL queries. It focuses on essential metrics such as the total number of Olympic Games held, country participation across different events, and the performance of top nations and athletes. Special attention is given to India's Olympic history, highlighting medal achievements and trends in specific sports. The project employs various SQL methodologies, including Common Table Expressions (CTEs), ranking functions, and stored procedures to extract meaningful insights from the dataset
+Description
+This project involves analyzing the Olympic Games dataset to uncover meaningful insights about participation, medal distributions, and athlete performances. It includes SQL queries to handle duplicates, identify trends, and answer complex business questions.**
+
+**Key SQL Techniques**
+
+1.Common Table Expressions (CTEs)
+2.Window Functions 
+3.Aggregate Functions (COUNT, SUM, AVG)
+4.Joins 
+5.Subqueries
 
 **Questions Addressed**
-1. How many total Olympic Games were held (including Summer and Winter)?
-2. Total number of countries that participated in each Summer/Winter Olympics?
-3. Which year saw the highest and lowest number of countries participating in the Olympics?
-4. Which nation has participated in all of the Olympic games?
-5. Identify the sport that was played in all Summer Olympics.
-6. Which sports were played only once and in which year?
-7. Fetch details of the oldest athletes to win a gold medal.
-8. Fetch the top 5 athletes who have won the most gold medals.
-9. Fetch the top 5 athletes who have won the most medals (gold, silver, bronze).
-10. Fetch the top 5 most successful countries in the Olympics. Success is defined by the number of medals won.
-11. List the total gold, silver, and bronze medals won by each country in each Olympic Games.
-12. Which countries have never won a gold medal but have won silver/bronze medals?
-13. In which sport/event has India won the highest number of medals?
-14. Breakdown of all Olympic Games where India won medals in hockey and how many medals in each Olympic Games.
-15. Fetch the total number of sports played in each Olympic Games.
-16. List all Olympic Games held so far.
-17. Which top countries have sent fewer than 50 athletes but have a high ratio of medals won per athlete?
-18. Country dominance in specific sports.
-19. Who is the most successful athlete (in terms of total medals won) in each sport, and how many medals did they win?
-20. How many medals did each country (NOC) win in the most recent Olympic Games?
+1.How many total Olympic Games have been held, including both Summer and Winter Olympics?
+2.List all the Olympic Games held so far with their year, season, and host city.
+3.How many countries participated in each Summer/Winter Olympic Games?
+4.Which year saw the highest number of countries participating in the Olympics?
+5.Which year saw the lowest number of countries participating in the Olympics?
+6.Identify the nation that has participated in all Olympic Games.
+7.Which sport was played in all Summer Olympic Games?
+8.Which sports were played only once in the Olympics, and in which year?
+9.Fetch details of the oldest athletes who won a gold medal.
+10.Who are the top 5 athletes who have won the most gold medals?
+11.Who are the top 5 athletes who have won the most medals overall?
+12.Which are the top 5 most successful countries in the Olympics, based on the number of medals won?
+13.List the total gold, silver, and bronze medals won by each country in each Olympic Games.
+14.Which countries have never won a gold medal but have won silver or bronze medals?
+15.In which sport or event has India won the highest number of medals?
+16.List all the Olympic Games where India won medals in hockey, including the number of medals won in each game.
+17.How many sports were played in each Olympic Games?
+18.Which are the top countries that sent fewer than 50 athletes but have a high ratio of medals won per athlete?
+19.Which countries dominate specific sports? (Create a procedure to find dominance for a given sport).
+20.Who is the most successful athlete (in terms of total medals won) in each sport, and how many medals did they win?
+21.How many medals did each country win in the most recent Olympic Games?
