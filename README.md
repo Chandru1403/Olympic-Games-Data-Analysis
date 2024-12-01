@@ -13,6 +13,7 @@ This project involves analyzing the Olympic Games dataset to uncover meaningful 
 
 **Questions Addressed**
 1.How many total Olympic Games have been held, including both Summer and Winter Olympics?
+
 2.List all the Olympic Games held so far with their year, season, and host city.
 3.How many countries participated in each Summer/Winter Olympic Games?
 4.Which year saw the highest number of countries participating in the Olympics?
