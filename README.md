@@ -1,6 +1,6 @@
 # Olympic-Games-Data-Analysis
 
-Description
+**Description**
 This project involves analyzing the Olympic Games dataset to uncover meaningful insights about participation, medal distributions, and athlete performances. It includes SQL queries to handle duplicates, identify trends, and answer complex business questions.**
 
 **Key SQL Techniques**
